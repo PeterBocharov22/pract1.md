@@ -4,14 +4,14 @@
 localhost:~# cut -d: -f1 /etc/passwd | sort
 
 ```
-![Снимок экрана (44)](https://github.com/user-attachments/assets/2b17e8ea-39f9-4412-b5b2-4b7dd46798ec)
+![image](https://github.com/user-attachments/assets/2b17e8ea-39f9-4412-b5b2-4b7dd46798ec)
 
 ## Задача 2. Вывести данные /etc/protocols в отформатированном и отсортированном порядке для 5 наибольших портов, как показано в примере.
 
 ```
 localhost:~# cat /etc/protocols | awk '{print $2, $1}' | sort -n -r | head -n 5
 ```
-![Снимок экрана (45)](https://github.com/user-attachments/assets/b874378e-6ffe-4c32-a4fc-64834d38f00f)
+![image)](https://github.com/user-attachments/assets/b874378e-6ffe-4c32-a4fc-64834d38f00f)
 
 ## Задача 3.Написать программу banner средствами bash для вывода текстов, как в следующем примере (размер баннера должен меняться!).
 
@@ -37,10 +37,10 @@ localhost:~# ./banner.sh "Hello from RTU MIREA!"
 | Hello from RTU MIREA! |
 +-----------------------+
 ```
-![Снимок экрана (46)](https://github.com/user-attachments/assets/b8d6d3a1-55d4-4010-bdc6-4a4eb33bf8a1)
+![image](https://github.com/user-attachments/assets/b8d6d3a1-55d4-4010-bdc6-4a4eb33bf8a1)
 
 ## Задача 4. Написать программу для вывода всех идентификаторов (по правилам C/C++ или Java) в файле (без повторений).
-![Снимок экрана (47)](https://github.com/user-attachments/assets/00ff8300-61c6-4721-92a1-dbf47a5a09e2)
+![image](https://github.com/user-attachments/assets/00ff8300-61c6-4721-92a1-dbf47a5a09e2)
 
 ## Задача 5. Написать программу для регистрации пользовательской команды (правильные права доступа и копирование в /usr/local/bin).
 
@@ -54,8 +54,8 @@ localhost:~# sudo ./regger.sh mama.sh
 localhost:~# cd /usr/local/bin
 localhost:/usr/local/bin# ls
 ```
-![Снимок экрана (48)](https://github.com/user-attachments/assets/cea5a708-655f-44a0-95c7-fa901dc33e69)
-![Снимок экрана (49)](https://github.com/user-attachments/assets/890d2601-6864-4e7b-b389-2149eafded6b)
+![image](https://github.com/user-attachments/assets/cea5a708-655f-44a0-95c7-fa901dc33e69)
+![image](https://github.com/user-attachments/assets/890d2601-6864-4e7b-b389-2149eafded6b)
 
 ## Задача 6. Написать программу для проверки наличия комментария в первой строке файлов с расширением c, js и py.
 ```
@@ -67,10 +67,10 @@ else
 echo "First line dont have comment"
 fi
 ```
-![367580492-d1457d26-5bb6-4685-91a8-b8a7ecdbcc00](https://github.com/user-attachments/assets/c7bd0b1e-b45f-41f7-8b61-b8dc035e260b)
-![367580462-24b5a33b-ca09-43cd-9fc5-19e9e8c484cf](https://github.com/user-attachments/assets/44105f5c-8ec6-444f-b6a1-298d132277e6)
-![367580597-01f2c3dd-71b6-44db-b128-7cbf9d77aef7](https://github.com/user-attachments/assets/1746c3cb-210e-4450-8bab-06d05612aa6f)
-![367580606-06976972-00f8-451c-b36e-6793d7f6804a](https://github.com/user-attachments/assets/ca80647d-f769-49d3-ae10-3e3c2c9e1fc0)
+![image](https://github.com/user-attachments/assets/c7bd0b1e-b45f-41f7-8b61-b8dc035e260b)
+![image](https://github.com/user-attachments/assets/44105f5c-8ec6-444f-b6a1-298d132277e6)
+![image](https://github.com/user-attachments/assets/1746c3cb-210e-4450-8bab-06d05612aa6f)
+![image](https://github.com/user-attachments/assets/ca80647d-f769-49d3-ae10-3e3c2c9e1fc0)
 
 
 ## Задача 7. Написать программу для нахождения файлов-дубликатов (имеющих 1 или более копий содержимого) по заданному пути (и подкаталогам).
@@ -88,8 +88,8 @@ done
 ```
 
 
-![367581430-7442a48a-87e3-43e0-a636-d7fca572df30](https://github.com/user-attachments/assets/aef3ed18-378d-42fb-a1df-950c290676c8)
-![367583038-0a6ef384-9be2-4759-979c-e0923397be06](https://github.com/user-attachments/assets/47cba418-831f-4bb4-a3a3-efd8f51aeeb2)
+![image](https://github.com/user-attachments/assets/aef3ed18-378d-42fb-a1df-950c290676c8)
+![image](https://github.com/user-attachments/assets/47cba418-831f-4bb4-a3a3-efd8f51aeeb2)
 
 ## Задача 8. Написать программу, которая находит все файлы в данном каталоге с расширением, указанным в качестве аргумента и архивирует все эти файлы в архив tar.
 ![image](https://github.com/user-attachments/assets/d07cc140-5057-4d39-9d7a-5309ef2ba1a4)
@@ -110,3 +110,13 @@ echo "Замена завершена. Результат сохранен в $o
 
 ![image](https://github.com/user-attachments/assets/4db8f23e-f0ad-4bcd-95f3-65f91fc6cec1)
 ![image](https://github.com/user-attachments/assets/bf374406-0ad6-4483-a79f-b545f97963a2)
+
+## Задача 10. Написать программу, которая выводит названия всех пустых текстовых файлов в указанной директории. Директория передается в программу параметром.
+
+```
+#!/bin/bash
+directory="$1"
+find $1 -type f -size 0 -maxdepth 1
+```
+![image](https://github.com/user-attachments/assets/68fc69ac-7049-418f-82de-f827441fbd81)
+![image](https://github.com/user-attachments/assets/5e728003-fd25-49cb-9113-9b0da639fcd9)
